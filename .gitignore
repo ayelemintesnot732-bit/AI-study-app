@@ -1,0 +1,42 @@
+# OSX
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+web-build/
+dist/
+
+# Environment (CRITICAL: protects your API keys)
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build outputs
+build/
+android/
+ios/
+
+# Secrets (NEVER commit these)
+*.p8
+*.p12
+*.key
+*.pem
+GoogleService-Info.plist
+google-services.json
+
+# EAS Build
+.eas/
+
+# Backups
+*.bak
+*.backup
